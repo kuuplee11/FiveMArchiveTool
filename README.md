@@ -1,4 +1,4 @@
-# KUPLE-TOOL
+# FiveM Archive Tool
 
 This is my first project on Python and is so simple.
 It serves to create a FiveM script structure.
