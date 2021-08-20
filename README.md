@@ -8,4 +8,4 @@ The files that it create are this:
 📂 Main Folder  config.lua  fxmainfext.lua | 📂 Server  main.lua | 📂 Client main.lua
 
 * Preview
-  https://streamable.com/4hvyoi
+  https://streamable.com/zpxuk9
