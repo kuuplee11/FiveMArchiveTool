@@ -48,7 +48,27 @@ $$ | \$$\ \$$$$$$  |$$ |      $$$$$$$$\ $$$$$$$$\
         fcf.close()
         
         fm = open(mainfest, 'w')
-        fm.write("-- File FxMainfest.lua Created By FiveM Acrhive Tool")
+        fm.write("""-- File FxMainfest.lua Created By FiveM Acrhive Tool
+
+-- Example:
+
+fx_version 'adamant'
+
+game 'gta5'
+
+description ''
+
+version '1.0'
+
+server_scripts {
+	'config.lua',
+	'Server/main.lua'
+}
+
+client_scripts {
+	'Client/main.lua'
+}
+        """)
         fm.close()
 
 
